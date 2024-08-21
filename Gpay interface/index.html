@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Pay Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gpay-container">
+        <div class="gpay-header">
+            <img src="./GPAY.png" alt="Google Logo">
+            <h1>Google Pay</h1>
+        </div>
+        <div class="gpay-card">
+            <input type="text" class="card-number" placeholder="Account Number">
+            <input type="text" class="expiry-date" placeholder="MM / YY">
+            <input type="text" class="cvv" placeholder="CVV">
+        </div>
+        <div class="gpay-amount">
+            <label for="amount">Amount:</label>
+            <input type="text" id="amount" placeholder="$0.00">
+        </div>
+        <button class="gpay-button">Pay Now</button>
+    </div>
+</body>
+</html>
